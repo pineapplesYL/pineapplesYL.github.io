@@ -1,31 +1,177 @@
-doctype html
-html(lang= config.language)
-  //- html head html头部信息 
-  head
-    | !{ partial('_partial/head', null, {cache: false}) }
+<html>
 
-  //- html body html主体
-  body
-    //- header bar at the top 顶部页眉信息
-    | !{ partial('_partial/header', null, {cache: false}) }
+<head>
+    <meta charset="utf-8">
     
-    //- blog's information display 博客信息展示
-    | !{ partial('_partial/blog-info', null, {cache: false}) }
+    <title>Archives: 2024/5 | Hexo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    //- page's main part 页面主题部分
-    //- index|category|tags|post|archive|...
-    .main
-      .main-content !{ body }
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon/favicon.ico">
+    
+<link rel="stylesheet" href="/css/main.css">
 
-    //- toolbar float on screen 悬浮工具栏
-    | !{ partial('_partial/tool-bar', null, {cache: false}) }
+    
+<link rel="stylesheet" href="/css/tagplugins.css">
 
-    //- search panel 搜索面板
-    if config.search
-      | !{ partial('_partial/search', null, {cache: false}) }
+    
+<link rel="stylesheet" href="/css/highlight.css">
 
-    //- footer information at the bottom 底部页脚信息
-    | !{ partial('_partial/footer', null, {cache: false}) }
+    
 
-    //- link other resources at the end of the page 在页面最后引入其它资源
-    | !{ partial('_partial/other-resources', null, {cache: true}) }
+
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml" />
+    
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+<body>
+  <div class="blog-header">
+   <a id="menu-nav-icon"><img src="/image/menu.png"/></a>
+   <div class="nav-container">
+     <nav id="main-nav">
+       
+         <a class="main-nav-link" href="/">Home</a>
+       
+         <a class="main-nav-link" href="/archives">Archives</a>
+       
+     </nav>
+   </div>
+   <!--
+   <div id="search-form-wrap">
+     <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+   </div>
+ -->
+    <h1 class="blog-title">Hexo</h1>
+    <p class="lead blog-description"></p>
+</div>
+
+  <div id='main-part'>
+      
+
+<div class="article-index">
+      <div class="sidelist">
+        <div class="list">
+          
+              <h3>2024 - 5</h3>
+          
+          
+          <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/05/">May - 2024</a><span class="archive-list-count">2</span></li></ul>          
+      </div>
+    </div>
+    <div class="main lists">
+        
+        <!-- Date and Author -->
+<p class="blog-post-meta">
+    2024-05-27
+    
+</p>
+
+<div class="blog-post">
+    <!-- Title -->
+    <!--
+    <h3 class="blog-post-title-archive">
+        <a href="/2024/05/27/test/">
+            Test
+        </a>
+    </h3>
+  -->
+    
+      <h3 class="blog-post-title-archive">
+        <a href="/2024/05/27/test/">Test</a>
+      </h3>
+    
+
+
+    <hr />
+    
+
+    
+
+</div>
+
+        
+        <!-- Date and Author -->
+<p class="blog-post-meta">
+    2024-05-27
+    
+</p>
+
+<div class="blog-post">
+    <!-- Title -->
+    <!--
+    <h3 class="blog-post-title-archive">
+        <a href="/2024/05/27/hello-world/">
+            Hello World
+        </a>
+    </h3>
+  -->
+    
+      <h3 class="blog-post-title-archive">
+        <a href="/2024/05/27/hello-world/">Hello World</a>
+      </h3>
+    
+
+
+    <hr />
+    
+
+    
+
+</div>
+
+        
+        
+
+    </div>
+</div>
+
+  </div>
+  <!-- Footer -->
+  <div id="footer">
+  <div id="footer-social">
+    
+    
+    
+    
+    
+    
+</div>
+
+  <p id="footer-info">
+    &copy; 2024 John Doe<br>
+    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> -
+    Theme <a href="https://github.com/Suolawangzai/hexo-theme-nebula" target="_blank">nebula</a>
+  </p>
+
+  <div id="busuanzi">
+    <span id="busuanzi_container_site_pv">
+      &hearts;
+    Total visits: <span id="busuanzi_value_site_pv"></span>
+    </span>
+  </div>
+  <!--
+  <div id="footer-info">
+    &copy; 2024 John Doe<br>
+    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+  </div>
+-->
+</div>
+
+  <!-- After footer scripts -->
+  <!-- Disqus Comments -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+</body>
+
+</html>
